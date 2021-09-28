@@ -50,7 +50,10 @@ def decode_word(word)
 end
 
 def decode(message)
-  puts message
+  codes = message.split('   ')
+  message = []
+  message << codes.map { |word| decode_word(word).join }
+  message.join(' ')
 end
 
-decode morse_message
+puts decode morse_message
