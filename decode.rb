@@ -48,3 +48,9 @@ end
 def decode_word(word)
   word.split.map { |char| decode_char(char) }
 end
+
+def decode(message)
+  puts message
+end
+
+decode morse_message
