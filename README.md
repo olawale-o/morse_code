@@ -40,8 +40,8 @@ ruby main.rb
 👤 **Aganze Mataba Henri**
 
 - GitHub: [@hiromataba](https://github.com/hiromataba)
-- Twitter: [@Matabahiro](https://twitter.com/MatabaHiro)
-- LinkedIn: [Hiro Mataba](https://www.linkedin.com/in/aganzemataba/)
+- Twitter: [@hiromataba](https://twitter.com/MatabaHiro)
+- LinkedIn: [@hiromataba](https://www.linkedin.com/in/aganzemataba/)
 
 ## Contributing
 
