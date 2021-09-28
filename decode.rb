@@ -34,3 +34,13 @@ MORSE_CODE = {
   '----.' => 9,
   '-----' => 0
 }.freeze
+
+morse_message = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-. / .-. ..- -... .. . ...'
+
+def decode_char(char)
+  if MORSE_CODE.member?(char)
+    MORSE_CODE[char]
+  else
+    ' '
+  end
+end
