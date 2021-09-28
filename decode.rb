@@ -46,14 +46,13 @@ def decode_char(char)
 end
 
 def decode_word(word)
-  word.split.map { |char| decode_char(char) }
+  word.split.collect! { |char| decode_char(char) }
 end
 
 def decode(message)
   codes = message.split('   ')
-  message = []
-  message << codes.map { |word| decode_word(word).join }
-  message.join(' ')
+  codes.collect! { |word| decode_word(word).join }
+  codes.join(' ')
 end
 
 puts decode morse_message
